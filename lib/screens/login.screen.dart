@@ -2,6 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:udea_students_group/screens/login_registry.screen.dart';
 import 'package:udea_students_group/widgets/custom_input.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -72,7 +73,9 @@ class _LoginScreenState extends State<LoginScreen> {
                         color: Theme.of(context).primaryColor,
                         fontSize: 14,
                       ),
-                      recognizer: TapGestureRecognizer()..onTap = () {},
+                      recognizer: TapGestureRecognizer()
+                        ..onTap = () => Navigator.of(context)
+                            .pushNamed(LoginRegistryScreen.screenRoute),
                     ),
                   ],
                 ),
