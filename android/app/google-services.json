@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "576604300070",
+    "project_id": "udea-students-group",
+    "storage_bucket": "udea-students-group.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576604300070:android:6541b5d0005c87beec97e7",
+        "android_client_info": {
+          "package_name": "com.example.udea_students_group"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576604300070-k8p8l4305t12onp1h5f9uu7543qse9ln.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp26ut3yE7JHgwX2NdBrvXQouHdj0JaYk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "576604300070-k8p8l4305t12onp1h5f9uu7543qse9ln.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

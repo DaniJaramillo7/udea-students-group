@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables
 
+import 'package:firebase_core/firebase_core.dart';
 import 'package:udea_students_group/screens/activities_list.screen.dart';
 import 'package:udea_students_group/screens/activity_details.screen.dart';
 import 'package:udea_students_group/screens/login.screen.dart';
@@ -9,7 +10,9 @@ import 'package:udea_students_group/screens/my_profile.screen.dart';
 import 'package:udea_students_group/screens/temporal_home_screenscreen.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
