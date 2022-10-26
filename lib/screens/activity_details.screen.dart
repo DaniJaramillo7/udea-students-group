@@ -102,7 +102,6 @@ class MyCustomForm extends StatelessWidget {
                   style: TextStyle(
                     color: Theme.of(context).primaryColor,
                     fontSize: 25,
-                    fontWeight: FontWeight.bold,
                   ),
                 ),
                 MyStatefulWidget(),
@@ -112,12 +111,53 @@ class MyCustomForm extends StatelessWidget {
             Text(
               'Lista de participantes:',
               style: TextStyle(
-                color: Colors.black54,
+                color: Theme.of(context).primaryColor,
+                fontSize: 25,
+              ),
+            ),
+            const Text(
+              'Simon Bolivar',
+              style: TextStyle(
+                color: Colors.black87,
+                fontSize: 20,
+              ),
+            ),
+            const Text(
+              'Pedro Perez',
+              style: TextStyle(
+                color: Colors.black87,
+                fontSize: 20,
+              ),
+            ),
+            const Text(
+              'Juan Fernando Zapata',
+              style: TextStyle(
+                color: Colors.black87,
+                fontSize: 20,
+              ),
+            ),
+            const Text(
+              'Carlos Morales',
+              style: TextStyle(
+                color: Colors.black87,
+                fontSize: 20,
+              ),
+            ),
+            const Text(
+              'Jhon Cena',
+              style: TextStyle(
+                color: Colors.black87,
+                fontSize: 20,
+              ),
+            ),
+            const Text(
+              'Esteban Delgado',
+              style: TextStyle(
+                color: Colors.black87,
                 fontSize: 20,
               ),
             ),
             const SizedBox(height: 30),
-            //_listaAsistencia(context),
           ],
         ),
       ),
