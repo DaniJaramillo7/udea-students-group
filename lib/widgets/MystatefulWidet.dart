@@ -13,7 +13,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   @override
   Widget build(BuildContext context) {
     void getColor() {
-      print('Hola');
+      print('Funcion inscribir/ desInscribir');
     }
 
     return Checkbox(
